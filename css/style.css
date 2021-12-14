@@ -1,0 +1,59 @@
+body{
+    background-color: hsl(233, 47%, 7%) ;
+    font-size: 15px;
+}
+
+span{
+    color:  hsl(277, 64%, 61%);
+}
+
+h1{
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bold;
+}
+
+h3{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: normal;
+}
+
+p{
+    font-weight: normal;
+}
+
+
+.contenedor{
+    max-width: 1200px;
+    margin: 200px auto;
+}
+
+.contenido-pricipal{
+    height: 446px;
+    background-color: hsl(244, 38%, 16%);
+    border: 1px solid hsl(233, 47%, 7%);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.texto{
+    color: hsl(0, 0%, 100%);
+    padding: auto;
+}
+
+.imagen{
+    background-image: url(../images/image-header-desktop.jpg);
+    height: 446px;
+    width: auto;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
